@@ -322,7 +322,7 @@ else
 		TSSymbol = colors.Cyan,
 		TSTag = colors.Purple,
 		TSTagDelimiter = colors.Purple,
-		TSText = colors.Fg,
+		TSText = colors.sky,
 		TSStrong = { fg = c.fg, fmt = "bold" },
 		TSEmphasis = { fg = c.fg, fmt = "italic" },
 		TSUnderline = { fg = c.fg, fmt = "underline" },
