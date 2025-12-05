@@ -33,7 +33,7 @@ local colors = {
 	Purple = { fg = c.purple },
 }
 hl.common = {
-	Normal = { fg = c.sky, bg = cfg.transparent and c.none or c.bg },
+	Normal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg },
 	Terminal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_p },
 	EndOfBuffer = { fg = cfg.ending_tildes and c.bg_m or c.bg, bg = cfg.transparent and c.none or c.bg },
 	FoldColumn = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_p },
