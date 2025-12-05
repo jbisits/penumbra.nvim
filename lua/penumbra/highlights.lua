@@ -506,11 +506,11 @@ hl.plugins.gitsigns = {
 }
 
 hl.plugins.neo_tree = {
-	NeoTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_d },
-	NeoTreeNormalNC = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_d },
-	NeoTreeVertSplit = { fg = c.bg_m, bg = cfg.transparent and c.none or c.bg_d },
-	NeoTreeWinSeparator = { fg = c.bg_m, bg = cfg.transparent and c.none or c.bg_d },
-	NeoTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg2 or c.bg_d, bg = cfg.transparent and c.none or c.bg_d },
+	NeoTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_m },
+	NeoTreeNormalNC = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_m },
+	NeoTreeVertSplit = { fg = c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
+	NeoTreeWinSeparator = { fg = c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
+	NeoTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg2 or c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
 	NeoTreeRootName = { fg = c.orange, fmt = "bold" },
 	NeoTreeGitAdded = colors.Green,
 	NeoTreeGitDeleted = colors.Red,
@@ -541,10 +541,10 @@ hl.plugins.neotest = {
 }
 
 hl.plugins.nvim_tree = {
-	NvimTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_d },
-	NvimTreeNormalFloat = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_d },
-	NvimTreeVertSplit = { fg = c.bg_d, bg = cfg.transparent and c.none or c.bg_d },
-	NvimTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg_m or c.bg_d, bg = cfg.transparent and c.none or c.bg_d },
+	NvimTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_m },
+	NvimTreeNormalFloat = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_m },
+	NvimTreeVertSplit = { fg = c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
+	NvimTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg_m or c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
 	NvimTreeRootFolder = { fg = c.orange, fmt = "bold" },
 	NvimTreeGitDirty = colors.Yellow,
 	NvimTreeGitNew = colors.Green,
