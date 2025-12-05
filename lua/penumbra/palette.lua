@@ -1,7 +1,8 @@
 return {
 	balanced_dark = {
 		fg_p = "#FFFDFB", -- sun+
-		fg = "#FFF7ED", -- sun
+		-- fg = "#FFF7ED", -- sun
+		fg = "#8F8F8F",
 		fg_m = "#F2E6D4", -- sun-
 		sky_p = "#BEBEBE", -- sky+
 		sky = "#8F8F8F", -- sky
@@ -89,8 +90,10 @@ return {
 		sky = "#8F8F8F", -- sky
 		sky_m = "#636363", -- sky-
 		fg_p = "#3E4044", -- shade+
-		fg = "#636363", -- sky-
-		fg_m = "#8F8F8F", -- sky
+		-- fg = "#636363", -- sky-
+		fg = "#8F8F8F", -- sky
+		-- fg_m = "#8F8F8F", -- sky
+		fg_m = "#636363", -- sky-
 		red = "#CA7081",
 		red_c = "#DF7F78", -- contrast red
 		orange = "#C27D40",
