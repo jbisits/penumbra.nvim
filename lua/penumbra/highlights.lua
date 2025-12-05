@@ -21,7 +21,7 @@ local function vim_highlights(highlights)
 end
 
 local colors = {
-	Fg = { fg = c.fg },
+	Fg = { fg = c.sky },
 	LightGrey = { fg = c.sky_p },
 	Grey = { fg = c.sky_m },
 	Red = { fg = c.red },
@@ -322,7 +322,7 @@ else
 		TSSymbol = colors.Cyan,
 		TSTag = colors.Purple,
 		TSTagDelimiter = colors.Purple,
-		TSText = colors.sky,
+		TSText = colors.Fg,
 		TSStrong = { fg = c.fg, fmt = "bold" },
 		TSEmphasis = { fg = c.fg, fmt = "italic" },
 		TSUnderline = { fg = c.fg, fmt = "underline" },
