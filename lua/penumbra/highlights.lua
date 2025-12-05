@@ -89,7 +89,7 @@ hl.common = {
 	TabLine = { fg = c.fg, bg = c.bg_p },
 	TabLineFill = { fg = c.sky_m, bg = c.bg_p },
 	TabLineSel = { fg = c.bg, bg = c.fg },
-	WinSeparator = { fg = c.bg3 },
+	WinSeparator = { fg = c.bg_p },
 	Visual = { bg = c.bg_p },
 	VisualNOS = { fg = c.none, bg = c.bg_m, fmt = "underline" },
 	QuickFixLine = { fg = c.blue, fmt = "underline" },
@@ -627,13 +627,13 @@ hl.plugins.indent_blankline = {
 	IndentBlankLineIndent4 = colors.LightGrey,
 	IndentBlankLineIndent5 = colors.Purple,
 	IndentBlankLineIndent6 = colors.Red,
-	IndentBlanklineChar = { fg = c.bg3, gui = "nocombine" },
-	IndentBlankLineContext = { fg = c.orange, bg = c.bg3, bold = true },
+	IndentBlanklineChar = { fg = c.bg_p, gui = "nocombine" },
+	IndentBlankLineContext = { fg = c.orange, bg = c.bg_p, bold = true },
 	IndentBlanklineContextStart = { sp = c.sky, gui = "underline" },
 	IndentBlanklineContextSpaceChar = { gui = "nocombine" },
 
 	-- Ibl v3
-	IblIndent = { fg = c.bg3, fmt = "nocombine" },
+	IblIndent = { fg = c.bg_p, fmt = "nocombine" },
 	IblWhitespace = { fg = c.sky_m, fmt = "nocombine" },
 	IblScope = { fg = c.grey, fmt = "nocombine" },
 }
