@@ -39,7 +39,7 @@ hl.common = {
 	FoldColumn = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_p },
 	Folded = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_p },
 	SignColumn = { fg = c.fg, bg = cfg.transparent and c.none or c.bg },
-	ToolbarLine = { fg = c.fg },
+	ToolbarLine = { fg = c.bg_p },
 	Cursor = { fmt = "reverse" },
 	vCursor = { fmt = "reverse" },
 	iCursor = { fmt = "reverse" },
