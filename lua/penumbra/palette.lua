@@ -11,7 +11,7 @@ return {
 		sky_m = "#636363", -- sky-
 		bg_p = "#3E4044", -- shade+
 		bg = "#303338", -- shade
-		bg_m = "#24272B", -- #shade-
+		bg_m = "#24272B", -- shade-
 		-- This is the seven color scheme
 		red = "#CA7081",
 		red_c = "#DF7F78", -- contrast red
@@ -88,12 +88,12 @@ return {
 		bg_p = "#FFFDFB", -- sun+
 		bg = "#FFF7ED", -- sun
 		bg_m = "#F2E6D4", -- sun-
-		fg_p = "#BEBEBE", -- sky+
+		fg_p = "#636363", -- sky+
 		fg = "#8F8F8F", -- sky
-		fg_m = "#636363", -- sky-
+		fg_m = "#BEBEBE", -- sky-
 		shade_p = "#3E4044", -- shade+
-		shade = "#636363", -- sky-
-		shade_m = "#8F8F8F", -- sky
+		shade = "#303338", -- shade
+		shade_m = "#24272B", -- shaade-
 		red = "#CA7081",
 		red_c = "#DF7F78", -- contrast red
 		orange = "#C27D40",
