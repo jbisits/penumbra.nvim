@@ -545,7 +545,7 @@ hl.plugins.nvim_tree = {
 	NvimTreeNormalFloat = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_m },
 	NvimTreeVertSplit = { fg = c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
 	NvimTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg_m or c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
-	NvimTreeRootFolder = { fg = c.orange, fmt = "bold" },
+	NvimTreeRootFolder = { fg = c.cyan, fmt = "bold" },
 	NvimTreeGitDirty = colors.Yellow,
 	NvimTreeGitNew = colors.Green,
 	NvimTreeGitDeleted = colors.Red,

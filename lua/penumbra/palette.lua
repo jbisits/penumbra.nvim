@@ -25,10 +25,12 @@ return {
 		purple = "#AC78BD",
 		purple_c = "#A48FE1", -- contrast 8 purple
 		-- tinted bg colors - mainly for diff highlighting
-		bg_red = "#2b1015",
-		bg_green = "#183628",
-		bg_cyan = "#003b44",
-		bg_blue = "#0f1b35",
+		bg_red = "#DF7F78",
+		bg_green = "#47A477",
+		bg_cyan = "#00B3C2",
+		bg_blue = "#6E8DD5",
+		bg_yellow = "#9CA748",
+		bg_orange = "#C27D40",
 	},
 	contrast_dark = {
 		fg_p = "#FFFDFB", -- sun+
@@ -112,10 +114,12 @@ return {
 		purple = "#AC78BD",
 		purple_c = "#A48FE1", -- contrast 8 purple
 		-- tinted bg colors - mainly for diff highlighting
-		bg_red = "#e5b8c0",
-		bg_green = "#c8e7d8",
-		bg_cyan = "#a6f3ff",
-		bg_blue = "#bac9eb",
+		bg_red = "#DF7F78",
+		bg_green = "#47A477",
+		bg_cyan = "#00B3C2",
+		bg_blue = "#6E8DD5",
+		bg_yellow = "#9CA748",
+		bg_orange = "#C27D40",
 	},
 	contrast_light = {
 		bg_p = "#FFFFFF", -- white
