@@ -21,9 +21,9 @@ local function vim_highlights(highlights)
 end
 
 local colors = {
-	Fg = { fg = c.sky },
-	LightGrey = { fg = c.sky_p },
-	Grey = { fg = c.sky_m },
+	Fg = { fg = c.fg },
+	LightGrey = { fg = c.fg_p },
+	Grey = { fg = c.fg_m },
 	Red = { fg = c.red },
 	Cyan = { fg = c.cyan },
 	Yellow = { fg = c.yellow },
@@ -192,7 +192,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
 		["@parameter.reference"] = colors.Fg,
 		["@property"] = colors.Cyan,
 		["@punctuation.delimiter"] = colors.LightGrey,
-		["@punctuation.bracket"] = colors.LightGrey,
+		["@punctuation.bracket"] = c.fg,
 		["@string"] = { fg = c.green, fmt = cfg.code_style.strings },
 		["@string.regexp"] = { fg = c.orange, fmt = cfg.code_style.strings },
 		["@string.escape"] = { fg = c.red, fmt = cfg.code_style.strings },
