@@ -48,9 +48,9 @@ hl.common = {
 	CursorColumn = { bg = c.bg_p },
 	CursorLine = { bg = c.bg_p },
 	ColorColumn = { bg = c.bg_p },
-	CursorLineNr = { fg = c.fg },
+	CursorLineNr = { fg = c.fg_p },
 	FlashCursor = { bg = c.orange, fmt = "reverse" },
-	LineNr = { fg = c.sky_m },
+	LineNr = { fg = c.fg_m },
 	Conceal = { fg = c.sky_m, bg = c.bg_p },
 	DiffAdd = { fg = c.none, bg = c.bg_green },
 	DiffChange = { fg = c.none, bg = c.bg_blue },
@@ -132,8 +132,8 @@ hl.syntax = {
 	Title = colors.Cyan,
 	Tag = colors.Green,
 	Delimiter = colors.LightGrey,
-	Comment = { fg = c.sky_m, fmt = cfg.code_style.comments },
-	SpecialComment = { fg = c.sky_m, fmt = cfg.code_style.comments },
+	Comment = { fg = c.fg_m, fmt = cfg.code_style.comments },
+	SpecialComment = { fg = c.fg_m, fmt = cfg.code_style.comments },
 	Todo = { fg = c.red, fmt = cfg.code_style.comments },
 }
 
