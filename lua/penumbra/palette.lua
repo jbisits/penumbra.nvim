@@ -94,9 +94,9 @@ return {
 		sun_p = "#FFFDFB", -- sun+
 		sun = "#FFF7ED", -- sun
 		sun_m = "#F2E6D4", -- sun-
-		sky_p = "#BEBEBE", -- sky+
+		sky_p = "#636363", -- sky+
 		sky = "#8F8F8F", -- sky
-		sky_m = "#636363", -- sky-
+		sky_m = "#BEBEBE", -- sky-
 		shade_p = "#3E4044", -- shade+
 		shade = "#303338", -- shade
 		shade_m = "#24272B", -- shaade-
