@@ -145,7 +145,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
 		["@attribute.typescript"] = colors.Blue,
 		["@boolean"] = colors.Orange,
 		["@character"] = colors.Orange,
-		["@comment"] = { fg = c.sky_m, fmt = cfg.code_style.comments },
+		["@comment"] = { fg = c.fg_m, fmt = cfg.code_style.comments },
 		["@comment.todo"] = { fg = c.red, fmt = cfg.code_style.comments },
 		["@comment.todo.unchecked"] = { fg = c.red, fmt = cfg.code_style.comments },
 		["@comment.todo.checked"] = { fg = c.green, fmt = cfg.code_style.comments },
@@ -256,7 +256,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
 
 	if vim.api.nvim_call_function("has", { "nvim-0.9" }) == 1 then
 		hl.lsp = {
-			["@lsp.type.comment"] = colors.LightGrey, --hl.treesitter["@comment"],
+			["@lsp.type.comment"] = c.fg_m, --hl.treesitter["@comment"],
 			["@lsp.type.enum"] = hl.treesitter["@type"],
 			["@lsp.type.enumMember"] = hl.treesitter["@constant.builtin"],
 			["@lsp.type.interface"] = hl.treesitter["@type"],
@@ -286,7 +286,7 @@ else
 		TSAttribute = colors.Cyan,
 		TSBoolean = colors.Orange,
 		TSCharacter = colors.Orange,
-		TSComment = { fg = c.sky_m, fmt = cfg.code_style.comments },
+		TSComment = { fg = c.fg_m, fmt = cfg.code_style.comments },
 		TSConditional = { fg = c.purple, fmt = cfg.code_style.keywords },
 		TSConstant = colors.Orange,
 		TSConstBuiltin = colors.Orange,
@@ -903,7 +903,7 @@ hl.langs.vim = {
 	vimMapLhs = colors.Fg,
 	vimMapRhs = colors.Blue,
 	vimVar = { fg = c.fg, fmt = cfg.code_style.variables },
-	vimCommentTitle = { fg = c.sky_p, fmt = cfg.code_style.comments },
+	vimCommentTitle = { fg = c.fg_m, fmt = cfg.code_style.comments },
 }
 
 local lsp_kind_icons_color = {
