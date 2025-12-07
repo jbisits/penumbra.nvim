@@ -115,7 +115,7 @@ return {
 		purple_c = "#A48FE1", -- contrast 8 purple
 		-- tinted bg colors - mainly for diff highlighting
 		bg_red = "#DF7F78",
-		bg_green = "#47A477",
+		bg_green = "#4047A477",
 		bg_cyan = "#00B3C2",
 		bg_blue = "#6E8DD5",
 		bg_yellow = "#9CA748",
