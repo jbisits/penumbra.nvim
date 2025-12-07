@@ -27,7 +27,7 @@ return {
 		-- tinted bg colors - mainly for diff highlighting
 		bg_red = "#DF7F78",
 		bg_green = "#47A477",
-		bg_cyan = "#00B3C2",
+		bg_cyan = util.lighten("#00B3C2", 0.5),
 		bg_blue = "#6E8DD5",
 		bg_yellow = "#9CA748",
 		bg_orange = "#C27D40",
