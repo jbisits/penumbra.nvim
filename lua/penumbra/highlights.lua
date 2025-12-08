@@ -64,6 +64,7 @@ hl.common = {
 	ErrorMsg = { fg = c.red, fmt = "bold" },
 	WarningMsg = { fg = c.yellow, fmt = "bold" },
 	MoreMsg = { fg = c.blue, fmt = "bold" },
+	MsgArea = { fg = c.fg_p, bg = c.bg_m },
 	CurSearch = { fg = c.bg, bg = c.orange },
 	IncSearch = { fg = c.bg, bg = c.purple_c },
 	Search = { fg = c.bg, bg = c.green },
