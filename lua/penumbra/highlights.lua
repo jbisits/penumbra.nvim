@@ -547,6 +547,7 @@ hl.plugins.nvim_tree = {
 	NvimTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg_m or c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
 	NvimTreeRootFolder = { fg = c.cyan, fmt = "bold" },
 	NvimTreeGitDirty = colors.Orange,
+	NvimTreeGitStaged = colors.Yellow,
 	NvimTreeGitNew = colors.Green,
 	NvimTreeGitDeleted = colors.Red,
 	NvimTreeSpecialFile = { fg = c.yellow, fmt = "underline" },
