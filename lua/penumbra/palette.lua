@@ -134,6 +134,9 @@ return {
 		fg_p = "#636363", -- sky+
 		fg = "#9E9E9E", -- sky
 		fg_m = "#CECECE", -- sky-
+		sun_p = "#FFFDFB", -- sun+
+		sun = "#FFF7ED", -- sun
+		sun_m = "#F2E6D4", -- sun-
 		sky_p = "#636363", -- sky+
 		sky = "#9E9E9E", -- sky
 		sky_m = "#CECECE", -- sky-
@@ -159,14 +162,17 @@ return {
 	},
 	more_contrast_light = {
 		bg_p = "#FFFDFB", -- sun+
-		bg = "#FFFFFF", -- white
-		bg_m = "#FFF7ED", -- sun
+		bg = "#FFF7ED", -- white
+		bg_m = "#F2E6D4", -- sun
 		sky_p = "#636363", -- sky+
 		sky = "#AEAEAE", -- sky
 		sky_m = "#DEDEDE", -- sky-
 		fg_p = "#636363", -- shade+
 		fg = "#AEAEAE", -- shade
 		fg_m = "#DEDEDE", -- shade-
+		sun_p = "#FFFDFB", -- sun+
+		sun = "#FFF7ED", -- white
+		sun_m = "#F2E6D4", -- sun
 		shade_p = "#3E4044", -- shade+
 		shade = "#303338", -- shade
 		shade_m = "#24272B", -- shade-
