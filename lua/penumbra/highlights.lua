@@ -559,6 +559,7 @@ hl.plugins.nvim_tree = {
 	NvimTreeIndentMarker = colors.Fg,
 	NvimTreeImageFile = { fg = c.purple_c },
 	NvimTreeSymlink = colors.Purple,
+	NvimTreeSymlinkFolderName = colors.Purple,
 	NvimTreeFolderName = colors.Blue,
 }
 
