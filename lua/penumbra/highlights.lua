@@ -628,12 +628,12 @@ hl.plugins.rainbow_delimiters = {
 }
 
 hl.plugins.indent_blankline = {
-	IndentBlankLineIndent1 = colors.Blue,
-	IndentBlankLineIndent2 = colors.Green,
+	IndentBlankLineIndent1 = colors.Purple,
+	IndentBlankLineIndent2 = colors.Blue,
 	IndentBlankLineIndent3 = colors.Cyan,
-	IndentBlankLineIndent4 = colors.LightGrey,
-	IndentBlankLineIndent5 = colors.Purple,
-	IndentBlankLineIndent6 = colors.Red,
+	IndentBlankLineIndent4 = colors.Green,
+	IndentBlankLineIndent5 = colors.Red,
+	IndentBlankLineIndent6 = colors.Orange,
 	IndentBlanklineChar = { fg = c.bg_p, gui = "nocombine" },
 	IndentBlankLineContext = { fg = c.orange, bg = c.bg_p, bold = true },
 	IndentBlanklineContextStart = { sp = c.sky, gui = "underline" },
@@ -643,6 +643,14 @@ hl.plugins.indent_blankline = {
 	IblIndent = { fg = c.bg_p, fmt = "nocombine" },
 	IblWhitespace = { fg = c.sky_m, fmt = "nocombine" },
 	IblScope = { fg = c.grey, fmt = "nocombine" },
+	-- Ibl v3 rainbow scope colors
+	RainbowRed = colors.Red,
+	RainbowYellow = colors.Yellow,
+	RainbowBlue = colors.Blue,
+	RainbowOrange = colors.Orange,
+	RainbowGreen = colors.Green,
+	RainbowViolet = colors.Purple,
+	RainbowCyan = colors.Cyan,
 }
 
 hl.plugins.mini = {
