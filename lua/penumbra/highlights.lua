@@ -642,7 +642,7 @@ hl.plugins.indent_blankline = {
 	-- Ibl v3
 	IblIndent = { fg = c.fg_m, fmt = "nocombine" },
 	IblWhitespace = { fg = c.fg_m, fmt = "nocombine" },
-	IblScope = { fg = c.yellow_c, fmt = "nocombine" },
+	IblScope = { fg = c.Purple, fmt = "nocombine" },
 	-- Ibl v3 rainbow scope colors
 	RainbowRed = colors.Red,
 	RainbowYellow = colors.Yellow,
