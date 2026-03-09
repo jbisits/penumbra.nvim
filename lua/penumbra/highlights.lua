@@ -90,7 +90,7 @@ hl.common = {
 	TabLine = { fg = c.fg, bg = c.bg_p },
 	TabLineFill = { fg = c.sky_m, bg = c.bg_p },
 	TabLineSel = { fg = c.bg, bg = c.fg },
-	WinSeparator = { bg = c.bg_p, fg = c.bg_m },
+	WinSeparator = { bg = c.bg_m, fg = c.bg_p },
 	Visual = { bg = c.bg_p },
 	VisualNOS = { fg = c.none, bg = c.bg_m, fmt = "underline" },
 	QuickFixLine = { fg = c.blue, fmt = "underline" },
@@ -543,10 +543,10 @@ hl.plugins.neotest = {
 }
 
 hl.plugins.nvim_tree = {
-	NvimTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_m },
+	NvimTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg },
 	NvimTreeStatusLine = { fg = c.fg_m, bg = c.bg_p },
 	NvimTreeStatusLineNC = { fg = c.fg, bg = c.bg_p },
-	NvimTreeNormalFloat = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_m },
+	NvimTreeNormalFloat = { fg = c.fg, bg = cfg.transparent and c.none or c.bg },
 	NvimTreeVertSplit = { fg = c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
 	NvimTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg_m or c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
 	NvimTreeRootFolder = { fg = c.cyan, fmt = "bold" },
