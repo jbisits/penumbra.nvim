@@ -543,12 +543,12 @@ hl.plugins.neotest = {
 }
 
 hl.plugins.nvim_tree = {
-	NvimTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg },
+	NvimTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_m },
 	NvimTreeStatusLine = { fg = c.fg_m, bg = c.bg_p },
 	NvimTreeStatusLineNC = { fg = c.fg, bg = c.bg_p },
-	NvimTreeNormalFloat = { fg = c.fg, bg = cfg.transparent and c.none or c.bg },
-	NvimTreeVertSplit = { fg = c.bg, bg = cfg.transparent and c.none or c.bg },
-	NvimTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg_m or c.bg_m, bg = cfg.transparent and c.none or c.bg },
+	NvimTreeNormalFloat = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_m },
+	NvimTreeVertSplit = { fg = c.bg, bg = cfg.transparent and c.none or c.bg_m },
+	NvimTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg_m or c.bg_m, bg = cfg.transparent and c.none or c.bg_m },
 	NvimTreeRootFolder = { fg = c.cyan, fmt = "bold" },
 	NvimTreeOpenedFolderName = { fg = c.blue, fmt = "bold" },
 	NvimTreeGitDirty = colors.Orange,
