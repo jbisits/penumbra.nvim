@@ -552,6 +552,7 @@ hl.plugins.nvim_tree = {
 	NvimTreeRootFolder = { fg = c.cyan, fmt = "bold" },
 	NvimTreeOpenedFolderName = { fg = c.blue, fmt = "bold" },
 	NvimTreeGitDirty = colors.Orange,
+	NvimTreeGitDirtyIcon = colors.Orange,
 	NvimTreeGitStaged = colors.Yellow,
 	NvimTreeGitNew = colors.Green,
 	NvimTreeGitDeleted = colors.Red,
