@@ -9,7 +9,7 @@ local colors = {
 	blue = c.blue,
 	purple = c.purple,
 	cyan = c.cyan,
-	magenta = c.magenta,
+	magenta = c.purple_c,
 	grey = c.sky_m,
 }
 

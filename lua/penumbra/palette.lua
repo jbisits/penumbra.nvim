@@ -23,7 +23,7 @@ return {
 		cyan_c = "#00B3C2", -- contrast 8 cyan
 		blue = "#6E8DD5",
 		purple = "#AC78BD",
-		purple_c = "#A48FE1", -- contrast 8 purple
+		purple_c = "#BC73A4", -- contrast 8 purple
 		-- tinted bg colors - mainly for diff highlighting
 		bg_red = "#DF7F78",
 		bg_green = "#47A477",
@@ -118,7 +118,7 @@ return {
 		cyan_c = "#00B3C2", -- contrast 8 cyan
 		blue = "#6E8DD5",
 		purple = "#AC78BD",
-		purple_c = "#A48FE1", -- contrast 8 purple
+		purple_c = "#BC73A4", -- contrast 8 purple
 		-- tinted bg colors - mainly for diff highlighting
 		bg_red = "#DF7F78",
 		bg_green = "#47A477",
