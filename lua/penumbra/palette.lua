@@ -55,7 +55,7 @@ return {
 		cyan_c = "#00C4D7", -- more_contrast cyan
 		blue = "#7A9BEC",
 		purple = "#BE85D1",
-		purple_c = "#B69CF6", -- more_contrast purple
+		purple_c = "#D080B6", -- more_contrast purple
 		-- tinted bg colors - mainly for diff highlighting
 		bg_red = "#3a0e16",
 		bg_green = "#143528",
@@ -85,7 +85,7 @@ return {
 		cyan_c = "#00A2AF", -- balanced 8 cyan
 		blue = "#83ADFF",
 		purple = "#CC94E6",
-		purple_c = "#9481CC", -- balanced 8 purple
+		purple_c = "#E58CC5", -- balanced 8 purple
 		-- tinted bg colors - mainly for diff highlighting
 		bg_red = "#3a0712",
 		bg_green = "#123524",
@@ -153,7 +153,7 @@ return {
 		cyan_c = "#00C4D7", -- more_contrast cyan
 		blue = "#7A9BEC",
 		purple = "#BE85D1",
-		purple_c = "#B69CF6", -- more_contrast purple
+		purple_c = "#D080B6", -- more_contrast purple
 		-- tinted bg colors - mainly for diff highlighting
 		bg_red = "#eebbc4",
 		bg_green = "#c2e8d9",
@@ -186,7 +186,7 @@ return {
 		cyan_c = "#00A2AF", -- balanced 8 cyan
 		blue = "#83ADFF",
 		purple = "#CC94E6",
-		purple_c = "#9481CC", -- balanced 8 purple
+		purple_c = "#E58CC5", -- balanced 8 purple
 		-- tinted bg colors - mainly for diff highlighting
 		bg_red = "#f5adbd",
 		bg_green = "#bfe9d5",
