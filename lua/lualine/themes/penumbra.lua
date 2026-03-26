@@ -9,6 +9,7 @@ local colors = {
 	blue = c.blue,
 	purple = c.purple,
 	cyan = c.cyan,
+	magenta = c.magenta,
 	grey = c.sky_m,
 }
 
@@ -20,7 +21,7 @@ local penumbra = {
 	},
 	normal = {
 		a = { fg = colors.bg, bg = colors.green, gui = "bold" },
-		b = { fg = colors.fg, bg = c.bg_m },
+		b = { fg = colors.fg, bg = colors.magenta },
 		c = { fg = colors.grey, bg = cfg.lualine.transparent and c.none or c.bg_p },
 	},
 	visual = { a = { fg = colors.bg, bg = colors.purple, gui = "bold" } },
