@@ -21,7 +21,7 @@ local penumbra = {
 	},
 	normal = {
 		a = { fg = colors.bg, bg = colors.green, gui = "bold" },
-		b = { fg = colors.fg, bg = colors.magenta },
+		b = { fg = colors.magenta, bg = c.bg_m },
 		c = { fg = colors.grey, bg = cfg.lualine.transparent and c.none or c.bg_p },
 	},
 	visual = { a = { fg = colors.bg, bg = colors.purple, gui = "bold" } },
