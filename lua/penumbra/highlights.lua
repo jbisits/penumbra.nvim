@@ -654,6 +654,10 @@ hl.plugins.indent_blankline = {
 	RainbowCyan = colors.Cyan,
 }
 
+hl.plugins.virtcolum = {
+	VirtColumn = { fg = util.lighten(c.fg_m, 0.3, c.bg) },
+}
+
 hl.plugins.mini = {
 	MiniAnimateCursor = { fmt = "reverse,nocombine" },
 	MiniAnimateNormalFloat = hl.common.NormalFloat,
