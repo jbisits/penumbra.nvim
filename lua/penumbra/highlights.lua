@@ -655,7 +655,7 @@ hl.plugins.indent_blankline = {
 }
 
 hl.plugins.virtcolum = {
-	VirtColumn = { fg = util.lighten(c.fg_m, 0.3, c.bg) },
+	VirtColumn = { fg = colors.red }, --util.lighten(c.fg_m, 0.3, c.bg) },
 }
 
 hl.plugins.mini = {
