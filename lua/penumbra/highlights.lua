@@ -70,7 +70,7 @@ hl.common = {
 	Search = { fg = c.bg, bg = c.green },
 	Substitute = { fg = c.bg, bg = c.green },
 	MatchParen = { fmt = "reverse,nocombine,italic" },
-	NonText = { fg = c.fg_m },
+	NonText = { fg = util.lighten(c.fg_m, 0.3, c.bg) },
 	Whitespace = { fg = c.sky_m },
 	SpecialKey = { fg = c.sky_m },
 	Pmenu = { fg = c.fg, bg = c.bg_p },
@@ -652,10 +652,6 @@ hl.plugins.indent_blankline = {
 	RainbowGreen = colors.Green,
 	RainbowViolet = colors.Purple,
 	RainbowCyan = colors.Cyan,
-}
-
-hl.plugins.virtcolum = {
-	VirtColumn = { fg = colors.red }, --util.lighten(c.fg_m, 0.3, c.bg) },
 }
 
 hl.plugins.mini = {
