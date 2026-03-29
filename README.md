@@ -7,9 +7,9 @@ I am aim to support as many plugins as possible but for now it is mainly populat
 ## Screenshots
 
 | Balanced light | Balanced dark |
-|---|---|
+|:---:|:---:|
 |![](screenshots/balanced_light.png)|![](screenshots/balanced_dark.png)|
-| Contrast light | Contrast dark |
+| **Contrast light** | **Contrast dark** |
 |![](screenshots/contrast_light.png)|![](screenshots/contrast_dark.png)|
-| More contrast light | More contrast dark |
+| **More contrast light** | **More contrast dark** |
 |![](screenshots/more_contrast_light.png)|![](screenshots/more_contrast_dark.png)|
