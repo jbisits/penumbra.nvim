@@ -577,17 +577,17 @@ hl.plugins.telescope = {
 
 hl.plugins.snacks = {
 	-- Dashboard
-	SnacksDashboardHeader = colors.Yellow,
-	SnacksDashboardFooter = { fg = c.dark_red, fmt = "italic" },
-	SnacksDashboardSpecial = { fg = c.dark_red, fmt = "bold" },
-	SnacksDashboardDesc = colors.Cyan,
-	SnacksDashboardIcon = colors.Cyan,
-	SnacksDashboardKey = colors.Blue,
+	SnacksDashboardHeader = colors.yellow,
+	SnacksDashboardFooter = { fg = c.red, fmt = "italic" },
+	SnacksDashboardSpecial = { fg = c.red, fmt = "bold" },
+	SnacksDashboardDesc = colors.cyan,
+	SnacksDashboardIcon = colors.cyan,
+	SnacksDashboardKey = colors.blue,
 
 	-- Picker
 	SnacksPicker = hl.common.Normal,
-	SnacksPickerBorder = colors.Cyan,
-	SnacksPickerTitle = colors.Red,
+	SnacksPickerBorder = colors.cyan,
+	SnacksPickerTitle = colors.red,
 	SnacksPickerMatch = { fg = c.orange, fmt = "bold" },
 }
 
@@ -817,6 +817,11 @@ hl.plugins.notify = {
 	NotifyINFOTitle = { bg = c.none, fg = c.cyan },
 	NotifyDEBUGTitle = { bg = c.none, fg = c.purple },
 	NotifyTRACETitle = { bg = c.none, fg = c.purple },
+	NotifyERRORBody = { bg = c.none, fg = c.sky, bold = true },
+	NotifyWARNBody = { bg = c.none, fg = c.sky, bold = true },
+	NotifyINFOBody = { bg = c.none, fg = c.sky, bold = true },
+	NotifyDEBUGBody = { bg = c.none, fg = c.sky, bold = true },
+	NotifyTRACEBody = { bg = c.none, fg = c.sky, bold = true },
 }
 
 hl.langs.c = {
