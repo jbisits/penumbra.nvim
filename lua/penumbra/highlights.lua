@@ -791,28 +791,32 @@ hl.plugins.mini = {
 hl.plugins.noice = {
 	NoiceCmdlinePopupBorderSearch = { bg = c.none, fg = c.purple_c },
 	NoiceCmdlineIconSearch = { bg = c.bg, fg = c.purple_c },
-	NoiceCmdlinePopup = { bg = c.bg_m, fg = c.fg, bold = true },
+	NoiceCmdlinePopup = { bg = c.bg, fg = c.fg, bold = true },
 	NoiceCmdlinePopupBorder = { bg = c.none, fg = c.yellow },
 	NoiceCmdlineIcon = { bg = c.bg, fg = c.yellow },
 	NoiceCmdline = { bg = c.bg, fg = c.red },
+	NoiceCmdlinePopupBorderFilter = { bg = c.none, fg = c.cyan },
+	NoiceCmdlineIconFilter = { bg = c.bg, fg = c.cyan },
+	NoiceCmdlinePopupBorderLua = { bg = c.bg, fg = c.blue },
+	NoiceCmdlineIconLua = { bg = c.bg, fg = c.blue },
 }
 
 hl.plugins.notify = {
 	NotifyERRORBorder = { bg = c.none, fg = c.red },
-	NotifyWARNBorder = { bg = c.none, fg = c.yellow },
-	NotifyINFOBorder = { bg = c.none, fg = c.green },
+	NotifyWARNBorder = { bg = c.none, fg = c.orange },
+	NotifyINFOBorder = { bg = c.none, fg = c.cyan },
 	NotifyDEBUGBorder = { bg = c.none, fg = c.purple },
 	NotifyTRACEBorder = { bg = c.none, fg = c.purple },
 	NotifyERRORIcon = { bg = c.none, fg = c.red },
-	NotifyWARNIcon = { bg = c.none, fg = c.yellow },
-	NotifyINFOIcon = { bg = c.none, fg = c.green },
+	NotifyWARNIcon = { bg = c.none, fg = c.orange },
+	NotifyINFOIcon = { bg = c.none, fg = c.cyan },
 	NotifyDEBUGIcon = { bg = c.none, fg = c.purple },
 	NotifyTRACEIcon = { bg = c.none, fg = c.purple },
-	NotifyERRORTitle = { bg = c.none, fg = c.sky_p },
-	NotifyWARNTitle = { bg = c.none, fg = c.sky_p },
-	NotifyINFOTitle = { bg = c.none, fg = c.sky_p },
-	NotifyDEBUGTitle = { bg = c.none, fg = c.sky_p },
-	NotifyTRACETitle = { bg = c.none, fg = c.sky_p },
+	NotifyERRORTitle = { bg = c.none, fg = c.red },
+	NotifyWARNTitle = { bg = c.none, fg = c.orange },
+	NotifyINFOTitle = { bg = c.none, fg = c.cyan },
+	NotifyDEBUGTitle = { bg = c.none, fg = c.purple },
+	NotifyTRACETitle = { bg = c.none, fg = c.purple },
 }
 
 hl.langs.c = {
