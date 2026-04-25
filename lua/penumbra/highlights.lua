@@ -789,11 +789,11 @@ hl.plugins.mini = {
 }
 
 hl.plugins.noice = {
-	NoiceCmdlinePopupBorder = { bg = c.none, fg = c.cyan },
-	NoiceCmdlinePopupBorderSearch = { bg = c.none, fg = c.cyan },
+	NoiceCmdlinePopupBorder = { bg = c.none, fg = c.yellow },
+	NoiceCmdlinePopupBorderSearch = { bg = c.none, fg = c.purple_c },
 	NoiceCmdlineIcon = { bg = c.bg, fg = c.yellow },
 	NoiceCmdlinePopup = { bg = c.bg, fg = c.fg, bold = true },
-	NoiceCmdline = { bg = c.bg, fg = c.cyan },
+	NoiceCmdline = { bg = c.bg, fg = c.red },
 }
 
 hl.plugins.notify = {
