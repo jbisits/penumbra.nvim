@@ -824,6 +824,15 @@ hl.plugins.notify = {
 	NotifyTRACEBody = { bg = c.bg, fg = c.fg },
 }
 
+hl.plugins.render_markdown = {
+	H1Bg = { fg = c.none, bg = util.lighten(c.orange, 0.25, c.bg) },
+	H2Bg = { fg = c.none, bg = util.lighten(c.yellow, 0.25, c.bg) },
+	H3Bg = { fg = c.none, bg = util.lighten(c.red, 0.25, c.bg) },
+	H4Bg = { fg = c.none, bg = util.lighten(c.magenta, 0.25, c.bg) },
+	H5Bg = { fg = c.none, bg = util.lighten(c.purple, 0.25, c.bg) },
+	H6Bg = { fg = c.none, bg = util.lighten(c.blue, 0.25, c.bg) },
+}
+
 hl.langs.c = {
 	cInclude = colors.Blue,
 	cStorageClass = colors.Purple,
