@@ -412,9 +412,9 @@ hl.plugins.ale = {
 }
 
 hl.plugins.bufferline = {
-	BufferLineModified = { fg = c.orange },
-	BufferLineModifiedSelected = { fg = c.orange },
-	BufferLineIndicatorSelected = { fg = c.blue },
+	BufferLineModified = { fg = c.orange, bg = c.bg_m },
+	BufferLineModifiedSelected = { fg = c.orange, bg = c.bg },
+	BufferLineIndicatorSelected = { fg = c.blue, bg = c.bg },
 }
 
 hl.plugins.barbar = {
@@ -505,9 +505,9 @@ hl.plugins.gitsigns = {
 	GitSignsAdd = colors.Green,
 	GitSignsAddLn = colors.Green,
 	GitSignsAddNr = colors.Green,
-	GitSignsChange = colors.Blue,
-	GitSignsChangeLn = colors.Blue,
-	GitSignsChangeNr = colors.Blue,
+	GitSignsChange = colors.Orange,
+	GitSignsChangeLn = colors.Orange,
+	GitSignsChangeNr = colors.Orange,
 	GitSignsDelete = colors.Red,
 	GitSignsDeleteLn = colors.Red,
 	GitSignsDeleteNr = colors.Red,
