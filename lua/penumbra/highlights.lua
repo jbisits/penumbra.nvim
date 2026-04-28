@@ -462,7 +462,7 @@ hl.plugins.whichkey = {
 
 hl.plugins.gitgutter = {
 	GitGutterAdd = { fg = c.green },
-	GitGutterChange = { fg = c.blue },
+	GitGutterChange = { fg = c.orange },
 	GitGutterDelete = { fg = c.red },
 }
 
@@ -522,7 +522,7 @@ hl.plugins.neo_tree = {
 	NeoTreeRootName = { fg = c.orange, fmt = "bold" },
 	NeoTreeGitAdded = colors.Green,
 	NeoTreeGitDeleted = colors.Red,
-	NeoTreeGitModified = colors.Yellow,
+	NeoTreeGitModified = colors.Orange,
 	NeoTreeGitConflict = { fg = c.red, fmt = "bold,italic" },
 	NeoTreeGitUntracked = { fg = c.red, fmt = "italic" },
 	NeoTreeIndentMarker = colors.Grey,
