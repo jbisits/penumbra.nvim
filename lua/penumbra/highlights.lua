@@ -411,6 +411,11 @@ hl.plugins.ale = {
 	ALEWarningSign = hl.plugins.lsp.DiagnosticWarn,
 }
 
+hl.plugins.bufferline = {
+	BufferLineModified = { fg = c.orange },
+	BufferLineIndicatorSelected = { fg = c.blue },
+}
+
 hl.plugins.barbar = {
 	BufferCurrent = { fmt = "bold" },
 	BufferCurrentMod = { fg = c.orange, fmt = "bold,italic" },
