@@ -413,6 +413,7 @@ hl.plugins.ale = {
 
 hl.plugins.bufferline = {
 	BufferLineModified = { fg = c.orange },
+	BufferLineModifiedSelected = { fg = c.orange },
 	BufferLineIndicatorSelected = { fg = c.blue },
 }
 
