@@ -607,6 +607,7 @@ hl.plugins.snacks = {
 
   -- indent
   SnacksIndentScope = c.purple_c,
+  SnacksIndentChunk = c.purple_c,
   SnacksIndent1 = colors.Purple,
   SnacksIndent2 = colors.Blue,
   SnacksIndent3 = colors.Cyan,
