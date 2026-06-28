@@ -412,6 +412,7 @@ hl.plugins.ale = {
 }
 
 hl.plugins.bufferline = {
+  BufferLineFill = {bg = c.sky_p},
   BufferLineModified = { fg = c.orange, bg = c.bg_m },
   BufferLineModifiedVisible = { fg = c.orange, bg = c.bg_m },
   BufferLineModifiedSelected = { fg = c.orange, bg = c.bg },
@@ -599,9 +600,18 @@ hl.plugins.snacks = {
   SnacksPickerPathHidden = {fg = c.sky_m},
   SnacksPickerGitStatusIgnored = {fg = c.sky_m},
   SnacksPickerGitStatusModified = {fg = c.orange},
+  SnacksPickerGitStatusChanged = {fg = c.orange},
   SnacksPickerGitStatusAdded = {fg = c.green},
   SnacksPickerGitStatusDeleted = {fg = c.red},
   SnacksPickerGitStatusRenamed = {fg = c.yellow},
+
+  -- indent
+  SnacksIndent1 = colors.Purple,
+  SnacksIndent2 = colors.Blue,
+  SnacksIndent3 = colors.Cyan,
+  SnacksIndent4 = colors.Green,
+  SnacksIndent5 = colors.Red,
+  SnacksIndent6 = colors.Orange,
 }
 
 hl.plugins.dashboard = {
