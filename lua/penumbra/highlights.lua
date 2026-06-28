@@ -412,7 +412,7 @@ hl.plugins.ale = {
 }
 
 hl.plugins.bufferline = {
-  BufferLineFill = {bg = c.sky_p},
+  BufferLineFill = {bg = c.bg_p},
   BufferLineModified = { fg = c.orange, bg = c.bg_m },
   BufferLineModifiedVisible = { fg = c.orange, bg = c.bg_m },
   BufferLineModifiedSelected = { fg = c.orange, bg = c.bg },
