@@ -48,9 +48,9 @@ hl.common = {
   CursorColumn = { bg = c.bg_p },
   CursorLine = { bg = c.bg_p },
   ColorColumn = { bg = c.bg_p },
-  CursorLineNr = { fg = c.fg_p },
+  CursorLineNr = { fg = c.purple, fmt = 'bold' },
   FlashCursor = { bg = c.purple, fmt = 'reverse' },
-  LineNr = { fg = c.purple },
+  LineNr = { fg = c.fg_m },
   Conceal = { fg = c.sky_m, bg = c.bg_p },
   DiffAdd = { fg = c.none, bg = util.lighten(c.green, 0.25, c.bg) },
   DiffChange = { fg = c.none, bg = util.lighten(c.blue, 0.25, c.bg) },
@@ -596,6 +596,7 @@ hl.plugins.snacks = {
   SnacksPickerBorder = colors.cyan,
   SnacksPickerTitle = colors.red,
   SnacksPickerMatch = { fg = c.purple_c, fmt = 'bold' },
+  SnacksPickerPathHidden = {fg = c.sky_m},
 }
 
 hl.plugins.dashboard = {
