@@ -50,7 +50,7 @@ hl.common = {
   ColorColumn = { bg = c.bg_p },
   CursorLineNr = { fg = c.fg_p },
   FlashCursor = { bg = c.purple, fmt = 'reverse' },
-  LineNr = { fg = c.fg_m },
+  LineNr = { fg = c.purple },
   Conceal = { fg = c.sky_m, bg = c.bg_p },
   DiffAdd = { fg = c.none, bg = util.lighten(c.green, 0.25, c.bg) },
   DiffChange = { fg = c.none, bg = util.lighten(c.blue, 0.25, c.bg) },
@@ -98,7 +98,7 @@ hl.common = {
   debugPC = { fg = c.bg, bg = c.green },
   debugBreakpoint = { fg = c.bg, bg = c.red },
   ToolbarButton = { fg = c.bg, bg = c.blue },
-  FloatBorder = { fg = c.sky_m, bg = c.bg_p },
+  FloatBorder = { fg = c.sky_m },
   NormalFloat = { fg = c.fg, bg = c.bg_p },
 }
 
@@ -595,7 +595,7 @@ hl.plugins.snacks = {
   SnacksPicker = hl.common.Normal,
   SnacksPickerBorder = colors.cyan,
   SnacksPickerTitle = colors.red,
-  SnacksPickerMatch = { fg = c.orange, fmt = 'bold' },
+  SnacksPickerMatch = { fg = c.purple_c, fmt = 'bold' },
 }
 
 hl.plugins.dashboard = {
