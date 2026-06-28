@@ -48,7 +48,7 @@ hl.common = {
   CursorColumn = { bg = c.bg_p },
   CursorLine = { bg = c.bg_p },
   ColorColumn = { bg = c.bg_p },
-  CursorLineNr = { fg = c.purple, fmt = 'bold' },
+  CursorLineNr = { fg = c.purple_c, fmt = 'bold' },
   FlashCursor = { bg = c.purple, fmt = 'reverse' },
   LineNr = { fg = c.fg_m },
   Conceal = { fg = c.sky_m, bg = c.bg_p },
