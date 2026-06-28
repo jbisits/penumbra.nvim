@@ -606,6 +606,7 @@ hl.plugins.snacks = {
   SnacksPickerGitStatusRenamed = {fg = c.yellow},
 
   -- indent
+  SnacksIndentScope = c.purple_c,
   SnacksIndent1 = colors.Purple,
   SnacksIndent2 = colors.Blue,
   SnacksIndent3 = colors.Cyan,
