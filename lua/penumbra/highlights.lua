@@ -597,6 +597,11 @@ hl.plugins.snacks = {
   SnacksPickerTitle = colors.red,
   SnacksPickerMatch = { fg = c.purple_c, fmt = 'bold' },
   SnacksPickerPathHidden = {fg = c.sky_m},
+  SnacksPickerGitStatusIgnored = {fg = c.sky_m},
+  SnacksPickerGitStatusModified = {fg = c.orange},
+  SnacksPickerGitStatusAdded = {fg = c.green},
+  SnacksPickerGitStatusDeleted = {fg = c.red},
+  SnacksPickerGitStatusRenamed = {fg = c.yellow},
 }
 
 hl.plugins.dashboard = {
