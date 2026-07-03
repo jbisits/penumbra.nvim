@@ -599,12 +599,14 @@ hl.plugins.snacks = {
   SnacksPickerMatch = { fg = c.purple_c, fmt = 'bold' },
   SnacksPickerPathHidden = {fg = c.sky_m},
   SnacksPickerPathIgnored = {fg = c.sky_m},
+  SnacksPickerPathDirectory = {fg = c.cyan},
   SnacksPickerGitStatusIgnored = {fg = c.sky_m},
   SnacksPickerGitStatusModified = {fg = c.orange},
   SnacksPickerGitStatusChanged = {fg = c.orange},
   SnacksPickerGitStatusAdded = {fg = c.green},
   SnacksPickerGitStatusDeleted = {fg = c.red},
   SnacksPickerGitStatusRenamed = {fg = c.yellow},
+  SnacksPickerGitStatusUnmerged = {fg = c.orange},
 
   -- indent
   SnacksIndentScope = {fg = c.purple_c},
