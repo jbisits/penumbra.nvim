@@ -596,6 +596,7 @@ hl.plugins.snacks = {
   SnacksPicker = hl.common.Normal,
   SnacksPickerBorder = colors.cyan,
   SnacksPickerTitle = colors.red,
+  SnacksPickerInputTitle = colors.blue,
   SnacksPickerMatch = { fg = c.purple_c, fmt = 'bold' },
   SnacksPickerPathHidden = {fg = c.sky_m},
   SnacksPickerPathIgnored = {fg = c.sky_m},
