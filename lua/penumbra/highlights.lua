@@ -615,6 +615,7 @@ hl.plugins.snacks = {
   SnacksPickerGitStatusAdded = {fg = c.green},
   SnacksPickerGitStatusDeleted = {fg = c.red},
   SnacksPickerGitStatusRenamed = {fg = c.yellow},
+  SnacksPickerGitStatusStaged = {fg = c.yellow},
   SnacksPickerGitStatusUnmerged = {fg = c.orange},
 
   -- indent
