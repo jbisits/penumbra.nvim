@@ -65,7 +65,7 @@ hl.common = {
   WarningMsg = { fg = c.yellow, fmt = 'bold' },
   MoreMsg = { fg = c.blue, fmt = 'bold' },
   MsgArea = { fg = c.fg_p, bg = c.bg },
-  CurSearch = { fg = c.bg_m, bg = c.orange },
+  CurSearch = { fg = c.bg_m, bg = c.purple_c },
   IncSearch = { fg = c.bg_m, bg = c.purple_c },
   Search = { fg = c.bg_m, bg = c.green },
   Substitute = { fg = c.bg, bg = c.green },
@@ -617,7 +617,7 @@ hl.plugins.snacks = {
   SnacksPickerGitStatusRenamed = {fg = c.yellow},
   SnacksPickerGitStatusStaged = {fg = c.yellow},
   SnacksPickerGitStatusUnmerged = {fg = c.orange},
-  -- SnacksPickerSearch = {fg = c.orange},
+  SnacksPickerSearch = {fg = c.purple_c},
   -- SnacksPickerWin = {fg = c.orange},
   -- SnacksPickerWinCurrent = {fg = c.orange},
 
