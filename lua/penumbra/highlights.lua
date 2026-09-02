@@ -65,9 +65,9 @@ hl.common = {
   WarningMsg = { fg = c.yellow, fmt = 'bold' },
   MoreMsg = { fg = c.blue, fmt = 'bold' },
   MsgArea = { fg = c.fg_p, bg = c.bg },
-  CurSearch = { fg = c.bg, bg = c.orange },
-  IncSearch = { fg = c.bg, bg = c.purple_c },
-  Search = { fg = c.bg, bg = c.green },
+  CurSearch = { fg = c.fg_m, bg = c.orange },
+  IncSearch = { fg = c.fg_m, bg = c.purple_c },
+  Search = { fg = c.fg_m, bg = c.green },
   Substitute = { fg = c.bg, bg = c.green },
   MatchParen = { fmt = 'reverse,nocombine,italic' },
   NonText = { fg = util.lighten(c.fg_m, 0.66, c.bg) },
@@ -617,6 +617,9 @@ hl.plugins.snacks = {
   SnacksPickerGitStatusRenamed = {fg = c.yellow},
   SnacksPickerGitStatusStaged = {fg = c.yellow},
   SnacksPickerGitStatusUnmerged = {fg = c.orange},
+  -- SnacksPickerSearch = {fg = c.orange},
+  -- SnacksPickerWin = {fg = c.orange},
+  -- SnacksPickerWinCurrent = {fg = c.orange},
 
   -- indent
   SnacksIndentScope = {fg = c.purple_c},
